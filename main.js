@@ -27,6 +27,8 @@ function addEvent() {
     newListItemElement.setAttribute('id', 'id' + newId);
     // add all elements to ul element
     todoListElement.appendChild(newListItemElement);
+    // clear user input
+    document.getElementById('todoInput').value = '';
 }
 
 // method to clear all todo events
