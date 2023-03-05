@@ -34,4 +34,6 @@ function clealAllEvent() {
   // access todo list element
   var todoListElement = document.getElementById('todoList');
   todoListElement.innerHTML = '';
+  // clear todo input
+  document.getElementById('todoInput').value = '';
 }
